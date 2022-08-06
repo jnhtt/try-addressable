@@ -27,19 +27,20 @@ public class AddressableScene : MonoBehaviour
             uiCanvas.Init(CreateCube, PushRed, PushGreen, PushBlue);
         }
 
-        op = Addressables.LoadAssetAsync<GameObject>("Assets/Addressables/Objects/Cube/Cube.prefab");
+        //op = Addressables.LoadAssetAsync<GameObject>("Assets/Addressables/Objects/Cube/Cube.prefab");
+        op = Addressables.LoadAssetAsync<GameObject>("Cube/Cube.prefab");
         yield return op;
         cubePrefab = op.Result;
 
-        var matOp = Addressables.LoadAssetAsync<Material>("Assets/Addressables/Objects/Cube/RedMat.mat");
+        var matOp = Addressables.LoadAssetAsync<Material>("Cube/RedMat.mat");
         yield return matOp;
         redMat = matOp.Result;
 
-        matOp = Addressables.LoadAssetAsync<Material>("Assets/Addressables/Objects/Cube/GreenMat.mat");
+        matOp = Addressables.LoadAssetAsync<Material>("Cube/GreenMat.mat");
         yield return matOp;
         greenMat = matOp.Result;
 
-        matOp = Addressables.LoadAssetAsync<Material>("Assets/Addressables/Objects/Cube/BlueMat.mat");
+        matOp = Addressables.LoadAssetAsync<Material>("Cube/BlueMat.mat");
         yield return matOp;
         blueMat = matOp.Result;
     }
