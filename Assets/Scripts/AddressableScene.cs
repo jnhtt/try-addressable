@@ -17,7 +17,7 @@ public class AddressableScene : MonoBehaviour
     {
         cubeList = new List<GameObject>();
 
-        var op = Addressables.LoadAssetAsync<GameObject>("Assets/Addressables/UI/UICanvas.prefab");
+        var op = Addressables.LoadAssetAsync<GameObject>("UICanvas.prefab");
         yield return op;
         var go = GameObject.Instantiate(op.Result);
         uiCanvas = go.GetComponent<UICanvas>();
@@ -28,19 +28,19 @@ public class AddressableScene : MonoBehaviour
         }
 
         //op = Addressables.LoadAssetAsync<GameObject>("Assets/Addressables/Objects/Cube/Cube.prefab");
-        op = Addressables.LoadAssetAsync<GameObject>("Cube/Cube.prefab");
+        op = Addressables.LoadAssetAsync<GameObject>("Cube.prefab");
         yield return op;
         cubePrefab = op.Result;
 
-        var matOp = Addressables.LoadAssetAsync<Material>("Cube/RedMat.mat");
+        var matOp = Addressables.LoadAssetAsync<Material>("RedMat.mat");
         yield return matOp;
         redMat = matOp.Result;
 
-        matOp = Addressables.LoadAssetAsync<Material>("Cube/GreenMat.mat");
+        matOp = Addressables.LoadAssetAsync<Material>("GreenMat.mat");
         yield return matOp;
         greenMat = matOp.Result;
 
-        matOp = Addressables.LoadAssetAsync<Material>("Cube/BlueMat.mat");
+        matOp = Addressables.LoadAssetAsync<Material>("BlueMat.mat");
         yield return matOp;
         blueMat = matOp.Result;
     }

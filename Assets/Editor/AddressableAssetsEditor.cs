@@ -150,7 +150,8 @@ namespace Lib.Editor
                 var path = file.Replace('\\', '/');
                 var basePath = path.Replace(ADDRESSABLE_ASSETS_PATH, "");
                 var baseDir = basePath.Split('/')[0];
-                var baseFilename = System.IO.Path.GetFileNameWithoutExtension(basePath);
+                //var baseFilename = System.IO.Path.GetFileNameWithoutExtension(basePath);
+                var baseFilename = System.IO.Path.GetFileName(basePath);
                 var group = aaSettings.groups.Find(g => g.Name == baseDir);
                 if (group == null)
                 {
