@@ -92,6 +92,8 @@ MonoBehaviour:
     - default
     - Cube
     - Obj
+    - CommonMat
+    - Sphere
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 7efdbcb79c8fb4893a8cc76820b8cf30, type: 2}
