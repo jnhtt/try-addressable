@@ -15,13 +15,8 @@ MonoBehaviour:
   m_GroupName: Scenes
   m_Data:
     m_SerializedData: []
-  m_GUID: bd73202f6a1164e0a9be593a563e9efe
-  m_SerializeEntries:
-  - m_GUID: 188a23d8dafe64a0b932a6a64984095b
-    m_Address: Assets/Addressables/Scenes/AddressableScene.unity
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_GUID: 9c2d620e5368941c9bc69e91f5832bbc
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 66917a85315e444feaec56fc1038852f, type: 2}
   m_SchemaSet:

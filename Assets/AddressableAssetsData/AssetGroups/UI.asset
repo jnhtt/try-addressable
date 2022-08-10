@@ -15,13 +15,8 @@ MonoBehaviour:
   m_GroupName: UI
   m_Data:
     m_SerializedData: []
-  m_GUID: 2fc86bbc1bfeb49ae89942c58d74672f
-  m_SerializeEntries:
-  - m_GUID: fa7baf73ec4474f088004604139e9807
-    m_Address: Assets/Addressables/UI/UICanvas.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_GUID: 146caad2fe381400e8f0ff90bc030b26
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 66917a85315e444feaec56fc1038852f, type: 2}
   m_SchemaSet:

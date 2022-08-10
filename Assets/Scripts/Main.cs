@@ -6,10 +6,11 @@ using UnityEngine.AddressableAssets;
 public class Main : MonoBehaviour
 {
     // Start is called before the first frame update
-    private IEnumerator Start()
+    private void Start()
     {
         var op = Addressables.LoadSceneAsync("Assets/Addressables/Scenes/AddressableScene.unity", UnityEngine.SceneManagement.LoadSceneMode.Additive);
-        yield return op;
+        op.WaitForCompletion();
+        //yield return op;
     }
 
     // Update is called once per frame

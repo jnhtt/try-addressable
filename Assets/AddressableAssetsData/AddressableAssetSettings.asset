@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: e4597d395c44a487dbe385b733725cba
+  m_DefaultGroup: 570df7a714a394c7dbffbdb76d1bade0
   m_CachedHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -45,6 +45,7 @@ MonoBehaviour:
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 627ad637f76554f5893463c88aafe1d4, type: 2}
+  - {fileID: 11400000, guid: a66cded8d7b624d2ebf95c5aaf46d3ce, type: 2}
   - {fileID: 11400000, guid: d14352cde6aec4fc68676770f8542730, type: 2}
   - {fileID: 11400000, guid: 5ead9f81282894cac98407ddb84a1900, type: 2}
   - {fileID: 11400000, guid: 9deeaba9cbd2f4243ba9d31d6ba3d811, type: 2}
@@ -90,6 +91,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - Cube
+    - Obj
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 7efdbcb79c8fb4893a8cc76820b8cf30, type: 2}
